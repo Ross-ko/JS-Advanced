@@ -7,7 +7,7 @@ function heroicInventory(data) {
         heroes.push({ name: heroInfo[0], level: Number(heroInfo[1]), items: heroInfo[2] ? heroInfo[2].split(', ') : [] });
     }
     
-    console.log( JSON.stringify(heroes));
+    console.log(JSON.stringify(heroes));
 }
 
 heroicInventory([
