@@ -15,8 +15,8 @@ function carFactory(carOrder) {
 
         carTemplate.engine.power = 120
         carTemplate.engine.volume = 2400;
-    }else if (carOrder.power >= 200) {
-        
+    } else if (carOrder.power >= 200) {
+
         carTemplate.engine.power = 200;
         carTemplate.engine.volume = 3500;
     }
