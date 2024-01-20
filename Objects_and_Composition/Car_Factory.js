@@ -8,15 +8,12 @@ function carFactory(carOrder) {
     };
 
     if (carOrder.power <= 119) {
-
         carTemplate.engine.power = 90;
         carTemplate.engine.volume = 1800;
     } else if (carOrder.power <= 199) {
-
         carTemplate.engine.power = 120
         carTemplate.engine.volume = 2400;
     } else if (carOrder.power >= 200) {
-
         carTemplate.engine.power = 200;
         carTemplate.engine.volume = 3500;
     }
