@@ -8,7 +8,7 @@ function extract(content) {
     let match = pattern.exec(text);
 
     while (match) {
-        result.push(match[1]);
+        result.push(match);
         match = pattern.exec(text);
     }
 
