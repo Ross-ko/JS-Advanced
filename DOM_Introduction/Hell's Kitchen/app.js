@@ -26,7 +26,6 @@ function solve() {
       let topRestaurant = bestRestaurant(result);
       addBestRestaurant(topRestaurant);
       addRestaurantStaff(topRestaurant[1].staff);
-      debugger
    }
 
    function addRestaurantStaff(staffInfo) {
