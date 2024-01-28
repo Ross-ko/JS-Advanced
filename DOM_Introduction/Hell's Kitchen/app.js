@@ -41,8 +41,7 @@ function solve() {
 
    function bestRestaurant(restaurants) {
 
-      let bestRestaurant = Object.entries(restaurants).sort((restA, restB) => restB[1].avrgSalart - restA[1].avrgSalart)[0];
-      return bestRestaurant;
+      return Object.entries(restaurants).sort((restA, restB) => restB[1].avrgSalart - restA[1].avrgSalart)[0];
    }
 
    function sortStaff(staff) {
