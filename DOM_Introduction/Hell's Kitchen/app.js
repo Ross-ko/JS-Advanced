@@ -19,7 +19,7 @@ function solve() {
                staff: []
             }
          }
-         let curStaff = workersFunc(staff, result[restaurant].staff);
+         let curStaff = staffFunc(staff, result[restaurant].staff);
          result[restaurant].staff = sortStaff(curStaff);
          salaryCalculator(result[restaurant]);
       }
@@ -62,7 +62,7 @@ function solve() {
       restaurant.avrgSalart = (sumOfSalaries / restaurant.staff.length).toFixed(2);
    }
 
-   function workersFunc(staff, curStaff) {
+   function staffFunc(staff, curStaff) {
 
       let staffArr = staff.split(', ');
       for (let workerData of staffArr) {
