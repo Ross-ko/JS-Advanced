@@ -1,5 +1,5 @@
 function attachEventsListeners() {
-  const buttons = Array.from(document.querySelectorAll("input[type=button]"));
+  const buttons = document.querySelectorAll("input[type=button]");
 
   for (let btn of buttons) {
     btn.addEventListener("click", converter);
