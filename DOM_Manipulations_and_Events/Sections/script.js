@@ -20,6 +20,6 @@ function create(words) {
       let elChildren = target.children;
       let paragraph = elChildren[0];
       paragraph.style.display = 'block';
-      /* if we want can make them switchable -> */ paragraph.style.display = paragraph.style.display === 'none' ? 'block' : 'none';
+      // /* if we want can make them switchable -> */ paragraph.style.display = paragraph.style.display === 'none' ? 'block' : 'none';
    }
 }
