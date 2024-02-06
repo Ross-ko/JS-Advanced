@@ -1,4 +1,4 @@
-import {add} from './app.js';
+import {add} from '../app.js';
 
 console.log(add(3, 39));
 

@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import { add } from './app.js'
+import { add } from '../app.js'
 
 describe('Suite Demo', function() {
     it ('works', function() {
