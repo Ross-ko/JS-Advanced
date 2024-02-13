@@ -17,8 +17,8 @@ function autoEngineeringCompany(data) {
 
   for (let brand in producedCars) {
     console.log(brand);
-    for (let model of Object.entries(producedCars[brand])){
-        console.log(`###${model[0]} -> ${model[1]}`);
+    for (let model of Object.entries(producedCars[brand])) {
+      console.log(`###${model[0]} -> ${model[1]}`);
     }
   }
 }
