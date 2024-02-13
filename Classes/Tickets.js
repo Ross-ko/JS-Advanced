@@ -1,5 +1,3 @@
-const { log } = require("console");
-
 function tickets(data, howToSort) {
   let result = [];
 
