@@ -26,7 +26,7 @@ function tickets(data, howToSort) {
   );
 }
 
-tickets(
+let t = tickets(
   [
     "Philadelphia|94.20|available",
     "New York City|95.99|available",
@@ -35,3 +35,5 @@ tickets(
   ],
   "destination"
 );
+
+console.log(t[0].destination);
