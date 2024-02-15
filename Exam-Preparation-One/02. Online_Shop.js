@@ -4,7 +4,7 @@ class OnlineShop {
   sales = [];
 
   constructor(warehouseSpace) {
-    this.warehouseSpace = Number(warehouseSpace);
+    this.warehouseSpace = warehouseSpace;
   }
 
   loadingStore(product, quantity, spaceRequired) {
