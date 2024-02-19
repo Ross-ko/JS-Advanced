@@ -45,20 +45,10 @@ describe("Test Suit", function () {
   });
   describe("test exploreOptions", () => {
     it("Valid input", () => {
-      let activities = ["Skiing", "Swimming", "Snowboarding"];
-      let activityIndex = 1;
-
-      let result = planYourTrip.exploreOptions(activities, activityIndex);
-
-      expect(result).to.equal("Skiing, Snowboarding");
+      expect(planYourTrip.exploreOptions(["Skiing", "Swimming", "Snowboarding"], 1)).to.equal("Skiing, Snowboarding");
     });
     it("Valid input(2)", () => {
-      let activities = ["Skiing"];
-      let activityIndex = 0;
-
-      let result = planYourTrip.exploreOptions(activities, activityIndex);
-
-      expect(result).to.equal('');
+      expect(planYourTrip.exploreOptions(["Skiing"], 0)).to.equal('');
     });
     it("Invalid Information!(1)", () => {
       expect(() => planYourTrip.exploreOptions("invalid", 1)).to.throw();
