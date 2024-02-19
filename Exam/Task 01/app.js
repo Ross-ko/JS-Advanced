@@ -133,7 +133,7 @@ function solve() {
     article.appendChild(btn);
     li.appendChild(article);
 
-    YourSnowmanSection.appendChild(li);
+    yourSnowmanSection.appendChild(li);
 
     btn.addEventListener('click', finish)
   }
