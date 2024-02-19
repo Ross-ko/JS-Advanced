@@ -8,7 +8,7 @@ function solve() {
   const specialAttributeEl = document.querySelector("#special-attribute");
 
   const snowmanPreviewSection = document.querySelector(".snowman-preview");
-  const YourSnowmanSection = document.querySelector(".snow-list");
+  const yourSnowmanSection = document.querySelector(".snow-list");
   const mainEl = document.querySelector('#hero');
   const bodyEl = document.querySelector('.body');
 
