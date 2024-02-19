@@ -45,7 +45,7 @@ class FashionRetailInventory {
     let prodInfo = this.productStock.find((prod) => prod.size == size);
 
     if (!prodInfo) {
-      throw new Error(`There are no products available in that size`);
+      return `There are no products available in that size`;
     } else {
       let prodInfo = this.productStock.filter((prod) => prod.size == size);
 
